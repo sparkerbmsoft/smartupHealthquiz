@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartUp Business Digital Health Quiz</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <link rel="stylesheet" href="pagestyle.css">
+</head>
+<body>
+ 
+  <div id="confetti-canvas"></div>
+    <header class="header" id="main-content">
+      <div class="header-logo">
+        <img src="srknew.jpg" alt="SmartUp Logo">
+      </div>
+      <div class="header-text">
+        <h1>Welcome to SmartUp Business Digital Health Quiz</h1>
+        <p>Check your business's online presence and digital health.</p>
+        <small>
+          📣 We Are The #Startup Specialist...
+          👉 Designing & Printing
+          👉 Digital Marketing, Branding
+          👉 Company Registration & Licensing
+        </small>
+      </div>
+    </header>
+  
+  
+  <main>
+    <div id="quizcard">
+      <form id="quiz-form">
+       
+      
+      <div id="quizbox">
+        <h2>Check Your Business Digital Health</h2>
+        <div>
+          <p>Do you maintain an active presence on Facebook for your business?</p>
+          <label><input type="radio" name="q1" value="yes">Yes</label>
+          <label><input type="radio" name="q1" value="no">No</label>
+        </div>
+        <div>
+          <p>Are you leveraging Instagram to showcase your products/services?</p>
+            <label><input type="radio" name="q2" value="yes">Yes</label>
+            <label><input type="radio" name="q2" value="no">No</label>
+        </div>
+          <div><p>you claimed and optimized your Google My Business profile?</p> 
+            <label><input type="radio" name="q3" value="yes">Yes</label>
+            <label><input type="radio" name="q3" value="no">No</label>
+          </div>
+          <div> <p>Do you operate a dedicated website or blog to provide information and updates about your business?</p>
+            <label><input type="radio" name="q4" value="yes">Yes</label>
+            <label><input type="radio" name="q4" value="no">No</label>
+          </div>
+          <div><p>Is sending out a regular newsletter to your customers a part of your marketing strategy? </p>
+            <label><input type="radio" name="q5" value="yes">Yes</label>
+            <label><input type="radio" name="q5" value="no">No</label>
+          </div>
+          
+        <!-- Repeat similar structure for other questions -->
+        </div>
+        <div class="bcard">
+      <button type="submit" id="smbtn">Submit</button>
+      </div>
+      </form>
+
+    </div>
+
+    <div id="reportcardbox">
+      <h1>Here is your Business health report</h1>
+    <div id="reportcard">
+      
+    <div>
+      <p><b>Health Score</b></p>
+      <p id="scorebox"></p>
+    </div>
+      <div>
+        <p><b>Health Status</b></p>
+        <p id="hresultbox"></p>
+      </div>
+      <div>
+        <p><b>Smartup Improvement Tips</b></p>
+        <p id="suggestbox"></p>
+      </div>
+    </div>
+    </div>
+  
+  </div>
+    </div>
+    <div id="canvasParent"></div>
+    <script src="pagescript.js"></script>
+</body>
+</html>
