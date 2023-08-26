@@ -135,6 +135,11 @@ body, h1, h2, h3, p, ul, li {
   margin:8px;
 
 }
+#quiz-form label:hover{
+    
+   transform:scale(0.9);
+   background:#D6AD60;   
+}
 #canvasParent {
   position: fixed;
   top: 0;
