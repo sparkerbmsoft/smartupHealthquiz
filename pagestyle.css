@@ -133,11 +133,12 @@ body, h1, h2, h3, p, ul, li {
   padding:1em;
   background:cyan ;
   margin:8px;
+  border-radius:30px;
 
 }
 #quiz-form label:hover{
     
-   transform:scale(1.2);
+   transform:scale(1.1);
    background:#D6AD60;   
 }
 #canvasParent {
