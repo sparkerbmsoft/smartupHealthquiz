@@ -133,7 +133,8 @@ body, h1, h2, h3, p, ul, li {
   padding:1em;
   background:cyan ;
   margin:8px;
-  border-radius:30px;
+  border-radius:20px;
+  outline: solid 1.5px dodgerblue;
 
 }
 #quiz-form label:hover{
