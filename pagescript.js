@@ -173,6 +173,7 @@ function showquiz(){
   const bnm = document.getElementById("businessName");
   const mb = document.getElementById("mobile");
   const eml = document.getElementById("email");
+  const regform = document.getElementById("regform");
   const quizshow = document.getElementById("quizcard");
 
   if(fnm.value!="" && lnm.value!="" && cnm.value!="" && bnm.value!="" && mb.value!="" && eml.value!=""){
