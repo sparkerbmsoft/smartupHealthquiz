@@ -164,3 +164,25 @@ class Confetti {
     return this.alpha <= 0;
   }
 }
+
+function showquiz(){
+  
+  const fnm = document.getElementById("firstName");
+  const lnm = document.getElementById("lastName");
+  const cnm = document.getElementById("cityName");
+  const bnm = document.getElementById("businessName");
+  const mb = document.getElementById("mobile");
+  const eml = document.getElementById("email");
+  const quizshow = document.getElementById("quizcard");
+
+  if(fnm.value!="" && lnm.value!="" && cnm.value!="" && bnm.value!="" && mb.value!="" && eml.value!=""){
+  
+  regform.style.display='none';
+  quizshow.style.display='block';
+
+  }
+  else{
+    alert("please fill the all details properly");
+  }
+
+}
