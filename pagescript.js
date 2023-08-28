@@ -190,7 +190,7 @@ function showquiz(){
 }
 readValue();
 function saveValue() {
-  const formsubmision = 1;
+  const valueToSave= 1;
   localStorage.setItem('savedValue', valueToSave);
   console.log('Value saved to localStorage.');
 }
