@@ -177,13 +177,32 @@ function showquiz(){
   const quizshow = document.getElementById("quizcard");
 
   if(fnm.value!="" && lnm.value!="" && cnm.value!="" && bnm.value!="" && mb.value!="" && eml.value!=""){
-  
+  saveValue();
   regform.style.display='none';
   quizshow.style.display='block';
-
+ 
   }
   else{
     alert("please fill the all details properly");
+    
   }
 
+}
+readValue();
+function saveValue() {
+  const formsubmision = 1;
+  localStorage.setItem('savedValue', valueToSave);
+  console.log('Value saved to localStorage.');
+}
+
+function readValue() {
+  const savedValue = localStorage.getItem('savedValue');
+  const regformi = document.getElementById("regform");
+  if (savedValue !== null) {
+    regformi.style.display='none';
+
+  } else {
+    console.log('No value found in localStorage.');
+    regformi.style.display='block';
+  }
 }
