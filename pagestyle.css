@@ -136,6 +136,7 @@ body, h1, h2, h3, p, ul, li {
   margin:8px;
   border-radius:20px;
   outline: solid 1.5px dodgerblue;
+  transition:0.5s ease;
 
 }
 #quiz-form label:hover{
