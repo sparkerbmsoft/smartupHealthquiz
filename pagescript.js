@@ -215,7 +215,7 @@ function playwel(){
    playButton = document.getElementById("firstName");
     const audioUrl = 'ElevenLabs_2023-08-29T11_14_34_Bella_pre_s50_sb75_b_m2.mp3'; // Replace with your raw content URL
 
-    playButton.addEventListener('change', () => {
+    playButton.addEventListener('click', () => {
       const audioPlayer = new Audio(audioUrl);
       audioPlayer.play();
     });
