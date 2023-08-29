@@ -181,6 +181,15 @@ align-items: center;
 padding:6px;
 }
 
+.contactcard{
+ height:300px;
+ width:100%;
+ border-radius:8px;
+ outline:solid 1.5px dodgerblue;
+ padding:12px;
+ margin:12px;
+}
+
 .bcard button{
 
   border-radius: 30px;
