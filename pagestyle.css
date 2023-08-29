@@ -183,13 +183,17 @@ padding:6px;
 }
 
 .contactcard{
- height:300px;
+ display:flex;
+ flex-direction:column;
+ justify-content:left;
+ align-item:left;
+ height:200px;
  width:100%;
  border-radius:8px;
  outline:solid 1.5px dodgerblue;
  padding:12px;
  margin:12px;
-background:#fff; 
+ background:#fff; 
 }
 
 .bcard button{
