@@ -202,12 +202,10 @@ function readValue() {
   if (savedValue == 1) {
     regformi.style.display='none';
     quizshowi.style.display="block";
-    alert("You already checked your business health! Share this with others help them to check their business health");
-
+  
   } else {
     console.log('No value found in localStorage.');
     regformi.style.display='block';
     quizshowi.style.display="none";
-    
   }
 }
