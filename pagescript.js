@@ -199,10 +199,10 @@ function readValue() {
   const savedValue = localStorage.getItem('savedValue');
   const regformi = document.getElementById("regform");
   if (savedValue !== null) {
-    regformi.style.display='none';
+    regformi.style.display='block';
 
   } else {
     console.log('No value found in localStorage.');
-    regformi.style.display='block';
+    regformi.style.display='none';
   }
 }
