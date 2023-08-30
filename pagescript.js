@@ -101,12 +101,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let confetti = [];
   let canvas;
-
+  let backgroundImage;
+function preload() {
+  // Load the image
+  backgroundImage = loadImage('webbackorg.webp');
+}
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('canvasParent');
- 
+  background(backgroundImage);
 }
 
 function draw() {
