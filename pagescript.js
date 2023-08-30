@@ -114,6 +114,7 @@ function setup() {
 }
 
 function draw() {
+  clear();
   for (let i = confetti.length - 1; i >= 0; i--) {
     confetti[i].update();
     confetti[i].display();
@@ -121,6 +122,7 @@ function draw() {
       confetti.splice(i, 1);
     }
   }
+  
 }
 
 function mouseMoved() {
