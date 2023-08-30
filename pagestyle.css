@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background: transparent;
+    background-image: url('webbackorg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   /* Reset some default styles */
