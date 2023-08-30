@@ -110,7 +110,7 @@ function setup() {
 }
 
 function draw() {
-  background("#A0E7E5");
+  background("160, 231, 229,0.6");
 
   for (let i = confetti.length - 1; i >= 0; i--) {
     confetti[i].update();
