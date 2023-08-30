@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     switch(score){
 
-      case 20: resultText+="Your business health is poor";
+      case 20: resultText+="Your business health is poor! talk with smartup to improve health";
       break;
       case 40: resultText+="Your business health is good";
       break;
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
       break;
       case 80: resultText+="Your business health is best";
       break;
-      case 100: resultText+="Your business health is Excellent";
+      case 100: resultText+="Your business health is Excellent, But still you need optimization in content.";
       break;
 
       default: resultText+="Oops! Your business health is very poor";
