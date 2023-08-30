@@ -31,11 +31,17 @@ body {
 }
 
 /* Logo styling */
+.header-logo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1em;
+  border-radius:8px;
+  background:#fff;
+}
 .header-logo img {
- 
-  max-width: 100%;
-  height: auto;
-  opacity:0.6;
+  width:150px;
+  height:150px;
 }
 
 
