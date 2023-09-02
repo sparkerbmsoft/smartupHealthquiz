@@ -231,7 +231,7 @@ function playwel(){
 function showform(){
 
   const thisregform = document.getElementById("regform");
-  regformi.style.display='block';
+  thisregform.style.display='block';
   
     
 }
