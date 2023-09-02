@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const quizcarddiv = document.getElementById("quizcard");
     quizcarddiv.style.display="none";
     showform();
-    
+    readvalue();
   });
 });
 
