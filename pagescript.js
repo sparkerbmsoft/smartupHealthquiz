@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     const quizcarddiv = document.getElementById("quizcard");
     quizcarddiv.style.display="none";
-    showReport();
+    showform();
     
   });
 });
@@ -192,7 +192,7 @@ function showquiz(){
   }
 
 }
-readValue();
+
 function saveValue() {
   const valueToSave= 1;
   localStorage.setItem('savedValue', valueToSave);
