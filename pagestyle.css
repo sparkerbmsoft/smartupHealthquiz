@@ -167,11 +167,9 @@ main {
   background:transparent;
 }
 #quizcard{
-  display:none;
   padding: 20px;
   background:rgba(255,255,255,0);
   border-radius:8px;
-
 }
 #quizbox{
 
