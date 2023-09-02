@@ -183,7 +183,7 @@ function showquiz(){
   if(fnm.value!="" && lnm.value!="" && cnm.value!="" && bnm.value!="" && mb.value!="" && eml.value!=""){
   saveValue();
   regform.style.display='none';
-  quizshow.style.display='block';
+  showReport();
  
   }
   else{
@@ -205,12 +205,14 @@ function readValue() {
   const quizshowi = document.getElementById("quizcard");
   if (savedValue == 1) {
     regformi.style.display='none';
-    quizshowi.style.display="block";
+    const reportCardBox = document.getElementById('reportcardbox');
+    reportCardBox.style.display = "block"; 
+    alert("You already taken this quiz");
   
   } else {
     console.log('No value found in localStorage.');
     regformi.style.display='block';
-    quizshowi.style.display="none";
+     reportCardBox.style.display = "none";
   }
 }
 playwel();
